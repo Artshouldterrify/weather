@@ -1,0 +1,64 @@
+.navbar {
+    height: 15vh;
+    width: 100vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background: black;
+}
+
+.navbar i {
+    margin-left: 20px;
+    font-size: 90px;
+}
+
+.navbar h1 {
+    margin-left: 20px;
+    font-size: 55px;
+    margin-top: 4vh;
+}
+
+.menu {
+    margin-left: 0;
+    margin-top: 5vh;
+}
+
+.menuLink {
+    margin-right: 20px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.menuLink:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+    transition: 0.3s;
+}
+
+.space {
+    width: 60%;
+}
+
+@media screen and (max-width:1020px) {
+    .navbar i {
+        margin-left: 10px;
+        font-size: 50px;
+    }
+
+    .navbar h1 {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+
+    .menuLink {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+}

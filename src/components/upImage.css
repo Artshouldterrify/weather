@@ -1,0 +1,162 @@
+.upload {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    background-image: url('../../public/rain.gif');
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    border-bottom: 2px solid black;
+}
+
+.upload-left {
+    height: 100%;
+    width: 50%;
+    padding-left: calc(0.05 * 100vw);
+    padding-top: calc(0.2 * 100vh);
+    font-size: 20px;
+}
+
+.upload-right {
+    height: 100%;
+    padding: 0vh 10vw;
+    width: 50%;
+    font-size: 20px;
+}
+
+.up-img-cont {
+    height: 100%;
+    width: 100%;
+}
+
+.upload-left button i {
+    font-size: 25px;
+}
+
+.up-img-cont button {
+    font-size: 15px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: black;
+}
+
+.up-img-cont .btn-p {
+    font-size: 15px;
+    margin-left: 30%;
+    font-weight: bold;
+    color: black;
+}
+
+.up-img-up {
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-img-up img {
+    max-width: 100%;
+    max-height: 60vh;
+    border: 5px solid black;
+}
+
+.up-img-down {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.dotted-img {
+    margin-top: 10%;
+    height: 70%;
+    border: 5px dashed white;
+    position: relative;
+}
+
+.dotted-img p {
+    margin-left: 35%;
+    margin-top: 25vh;
+}
+
+.btn {
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+
+.btn i {
+    font-size: 15px;
+}
+
+.cont {
+    font-size: 30px;
+}
+
+.softmax {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    row-gap: 30px;
+    grid-auto-rows: 70px;
+    padding: 10px;
+}
+
+.softmax-item {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.softmax-item:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.softmax-item p {
+    font-size: 15px;
+    font-weight: normal;
+    display: none;
+}
+
+.softmax-item:hover p {
+    display: inline;
+    color: black;
+}
+
+@media screen and (max-width:1020px) {
+    .upload-left {
+        font-size: 15px;
+    }
+
+    .cont {
+        font-size: 20px;
+    }
+
+    .btn i {
+        font-size: 15px;
+    }
+
+    .dotted-img p {
+        margin-left: 20%;
+    }
+}
